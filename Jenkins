@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-               git url: 'https://github.com/java2/helloworld.git' , branch: 'main'
+               git url: 'https://github.com/Rrefaat2255/java2.git' , branch: 'main'
             }
         }
         stage('Build') {
